@@ -4,6 +4,7 @@ app = Flask(__name__)
 
 from alumnos import alumnos
 
+
 @app.route("/")
 def root ():
      return "bienbenidos"
